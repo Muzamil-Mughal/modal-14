@@ -1,0 +1,50 @@
+.modal-content{
+    /* display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-rule-color: #554855; */
+    background-image: linear-gradient(to right,#DA74D9 , #F1A088);
+    color: whitesmoke;
+}
+label{
+    font-weight: 200;
+}
+input[type=submit]{
+    width: 100%;
+    background-color: #F9E090;
+    padding: 10px;
+    color: black;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border: none;
+}
+input[type=text], [type=email], [type= password]
+{
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid rgb(212, 195, 195);
+      width: 100%;
+    
+}
+button{
+    color: black;
+    font-size: 10px;
+    padding: 10px;
+    width: 49%;
+    border: none;
+    
+}
+.modal-content{
+    padding: 20px;
+}
+.opt{
+   font-size: smaller;
+    
+}
+.vl {
+  border-left: 1px solid rgb(212, 195, 195);
+  height: 400px;
+}
+.txt{
+    display: flex;
+    justify-content: space-between;
+}
